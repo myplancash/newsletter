@@ -27,7 +27,7 @@ export const socials = [
   },
 ];
 
-const title = "ILW Yennefer";
+const title = "Newsletter";
 const description =
   "Full-Stack Software Engineer 🧑🏻‍💻 working with cutting-edge stuff.";
 const image =
