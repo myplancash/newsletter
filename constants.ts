@@ -39,8 +39,8 @@ export const metaData: Metadata = {
   openGraph: {
     title,
     description,
-    url: "https://ilwyennefer.com",
-    siteName: "ILW Yennefer",
+    url: "https://portfolio-website-ruddy-beta.vercel.app",
+    siteName: "Sergio Esteban Torres, Full-Stack Software Engineer",
     images: [{ url: image }],
     locale: "en-US",
     type: "website",
@@ -61,6 +61,6 @@ export const metaData: Metadata = {
     description: description,
     card: "summary_large_image",
     images: [image],
-    creator: "@YenneferIlw",
+    creator: "@keeprules",
   },
 };
