@@ -74,12 +74,15 @@ function NewsletterForm() {
           />
           <button
             ref={buttonRef}
-            className={`${
-              active && "active"
-            } disabled:!bg-[#17141F] disabled:grayscale-[65%] disabled:opacity-50 disabled:cursor-not-allowed text-sm md:text-base`}
+            className={`${active && "active"} relative inline-block px-6 py-3 text-sm md:text-base font-semibold text-white transition-colors duration-300 ease-in-out rounded-md disabled:!bg-[#17141F] disabled:grayscale-[65%] disabled:opacity-50 disabled:cursor-not-allowed ${
+              input
+                ? "bg-primary hover:bg-primary-dark focus:bg-primary-dark"
+                : "bg-gray-500 cursor-not-allowed"
+            }`}
             disabled={!input}
             type="submit"
-          >
+            >
+        
             <span className="default">Subscribe</span>
             <span className="success">
               <svg viewBox="0 0 16 16">
