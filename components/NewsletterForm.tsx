@@ -49,12 +49,16 @@ function NewsletterForm() {
 
     setSuccessMessage(data.res);
     setErrorMessage("");
+
+    console.log(data)
+
   };
 
   const dismissMessages = () => {
     setSuccessMessage(undefined);
     setErrorMessage("");
   };
+
 
   return (
     <div className="flex flex-col space-y-8 md:w-[400px]">
